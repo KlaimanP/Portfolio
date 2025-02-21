@@ -1,0 +1,165 @@
+.graphisme {
+    background-color: #5d5d5a;        
+    padding: 50px 25px;
+
+    &__g1,
+    &__g3 {
+        display: flex;
+        gap: 20px; 
+        justify-content: space-between;
+    }
+
+    &__g2 { 
+        padding: 20px 0;   
+    }
+
+    &__g1__minia,
+    &__g2__minia,
+    &__g3__minia {
+        position: relative;
+        cursor: pointer;
+        overflow: hidden;
+        border-radius: 15px;
+
+        img {
+            width: 100%; // Respecte les dimensions de chaque groupe
+            height: auto;
+            object-fit: cover;
+            display: block;
+            border-radius: 15px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .overlayGraphisme {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            border-radius: 15px;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .overlayContent {
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: left;
+            flex-direction: column;
+            justify-content: center;
+
+            .title {
+                margin-bottom: 10px;
+                font-size: 24px;
+
+                @media screen and (max-width: 1024px) {
+                    font-size: 20px;
+                    text-align: center;
+                }
+            
+                @media screen and (max-width: 430px) {
+                    font-size: 9px;
+                    margin:5px;
+                }
+            }
+
+            .separator {
+                width: 50px;
+                height: 3px;
+                background-color: white;
+                margin-bottom: 10px;
+
+                @media screen and (max-width: 430px) {
+                    width: 25px;
+                    height: 1px;
+                    margin-bottom: 5px;
+                }
+            }
+
+            .text {
+                font-size: 16px;
+                max-width: 300px;
+                text-align: center;
+
+                @media screen and (max-width: 1024px) {
+                    font-size: 15px;
+                }
+            
+                @media screen and (max-width: 430px) {
+                    font-size: 6px;
+                    font-weight: normal;
+                }
+            }
+        }
+
+        &:hover img {
+            transform: scale(1.1);
+        }
+
+        &:hover .overlayGraphisme {
+            opacity: 1;
+        }
+    }
+
+    // Ajustements spécifiques aux tailles d'images
+    &__g1__minia img {
+        width: 890px;
+        height: 500px; /* Hauteur réduite de G1 */
+
+        
+        @media screen and (max-width: 1024px) {
+            width: 467px;
+            height: 400px;
+        }
+    
+        @media screen and (max-width: 430px) {
+            width: 187px;
+            height: 140px;
+        }
+    }
+
+    &__g2__minia img {
+        width: 1850px;
+        height: 966px;
+
+        @media screen and (max-width: 1024px) {
+            width: 974px;
+            height: 500px;
+        }
+    
+        @media screen and (max-width: 430px) {
+            width: 380px;
+            height: 190px;
+        }
+    }
+
+    &__g3__minia img {
+        width: 550px;
+        height: 343px;
+
+        @media screen and (max-width: 1024px) {
+            width: 284px;
+            height: 160px;
+        }
+    
+        @media screen and (max-width: 430px) {
+            width: 115px;
+            height: 80px;
+        }
+    }
+}
+
+
+
+
+
+
+    
+

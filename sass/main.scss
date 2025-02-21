@@ -1,0 +1,23 @@
+@import "misc/body";
+@import "misc/misc";
+
+@import "views/header";
+@import "views/footer";
+
+@import "views/homePage/hero";
+@import "views/homePage/about";
+@import "views/homePage/project";
+@import "views/homePage/video";
+
+@import "views/aboutMe/aboutMe";
+@import "views/aboutMe/hardSkill";
+@import "views/aboutMe/softSkill";
+
+@import "views/projects/graphiste";
+
+@import "views/projects/video/videoPerso";
+@import "views/projects/video/videoFoyerRemois";
+@import "views/projects/video/limusyo";
+
+@import "views/projects/web/fonction";
+@import "views/projects/web/dev";

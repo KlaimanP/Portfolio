@@ -1,0 +1,29 @@
+.hero {
+    margin-bottom: 400px;
+
+    @media screen and (max-width: 1024px) {
+        margin-bottom: 300px;
+    }
+
+    @media screen and (max-width: 430px) {
+        margin-bottom: 200px;
+    }
+
+    &__txt{
+        width: 600px;
+        margin: 0 auto;
+        @media screen and (max-width: 1024px) {
+            width: 300px;
+        }
+          
+        @media screen and (max-width: 430px) {
+            width: 240px;
+        }
+    }
+    
+    &__txt h3{
+        color:#5d5d5a ;
+        font-weight:400;
+    
+    }
+}

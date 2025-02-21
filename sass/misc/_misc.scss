@@ -1,0 +1,38 @@
+/* Cache l'élément sur desktop */
+@media screen and (min-width: 1024px) {
+  .hideForDesktop {
+    display: none;
+  }
+}
+
+/* Cache l'élément sur tablette (1024px et moins) */
+@media screen and (max-width: 1024px) {
+  .hideForTablet {
+    display: none;
+  }
+
+  .showForTablet {
+    display: block;
+  }
+}
+
+/* Cache l'élément sur mobile (430px et moins) */
+@media screen and (max-width: 430px) {
+  .hideForMobile {
+    display: none;
+  }
+
+  .showForMobile {
+    display: block;
+  }
+}
+
+
+
+
+.burgerMenu a{
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  list-style: none;
+}

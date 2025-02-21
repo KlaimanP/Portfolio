@@ -1,0 +1,28 @@
+.video{
+    text-align: center;
+    margin:100px ;
+
+    @media screen and (max-width: 1024px) {
+    }
+
+    @media screen and (max-width: 430px) {
+        margin:50px ;
+    }
+
+    &__minia {
+        width: 100%;
+        margin-top:20px ;
+        border: solid;
+        border-width: 15px;
+        border-color: #5d5d5a;
+
+        @media screen and (max-width: 1024px) {
+            border-width: 10px;
+        }
+    
+        @media screen and (max-width: 430px) {
+            
+            border-width: 5px;
+        }
+    }
+}

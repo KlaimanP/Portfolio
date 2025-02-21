@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio - Clément Potteau</title>
+    <meta name="description" content="description de ma page">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.typekit.net/neb1rwd.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../dist/css/main.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+          <a href="../index.html">
+              <img src="../dist/images/logoC.png" alt="logoC" class="header__logo__png">
+              <h4 class="header__logo__txt"> Clé Potteau</h4>
+          </a>
+      </div>
+      <div>
+          <nav>
+              <ul class="header__nav">
+                  <li><a href="../projects/aboutMe.html" class="float"><h4>Qui suis-je</h4></a></li>
+                  <li><a href="../index.html" class="float"><h4>Projet</h4></a></li>
+                  <li><a href="#footer" class="float"><h4>Contact</h4></a></li>
+              </ul>
+          </nav>
+      </div>
+  
+      <!-- Sidenav pour mobile -->
+      <div id="mySidenav" class="sidenav">
+          <a id="closeBtn" href="#" class="close">×</a>
+          <ul>
+              <li><a href="../projects/aboutMe.html">Qui suis-je</a></li>
+              <li><a href="../index.html">Projet</a></li>
+              <li><a href="#footer">Contact</a></li>
+          </ul>
+      </div>
+      
+      <!-- Menu burger visible sur mobile -->
+      <a href="#" id="openBtn" class="burger-btn">
+          <span class="burger-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+          </span>
+      </a>
+  </header>
+    <main>
+      <section class="hero">
+        <div class="hero__txt">
+          <h3>Bonjour je suis Clément et je </h3>
+          <h1><span id="changing-text"></span><span class="cursor">|</span></h1>
+        </div>
+      </section>
+
+      <section>
+        <div class="fonction">
+            <h2>Fonctionnalité</h2>
+            <p>Prenez une photo d'un plat et obtenez la recette, ainsi que les instructions pour le préparer. Ensuite, revisitez le à votre manière en utilisant des ingrédients que vous choisissez.</p>
+        </div>
+        <img src="../dist/images/web/Fond_Web.png" class="fondWeb">
+        <div class="dev">
+            <h2>Développement</h2>
+            <p>Le projet commence par une stratégie globale incluant contenu, outils et objectifs commerciaux. Ensuite, un nom est trouvé, suivi de la création ou de l’adaptation de l’identité visuelle. Un design system est élaboré pour assurer la cohérence, et les premiers écrans responsives sont intégrés. Enfin, une publicité pour les réseaux sociaux est créée pour promouvoir le dispositif.</p>
+        </div>
+        <div class="site">
+            <div class="site__visuel">
+                <img src="../dist/images/web/Page_1.png">
+                <img src="../dist/images/web/Page_2.png">
+            </div>
+            <div class="site__button">
+                <a href="https://klaimanp.github.io/Recipic/"  class="site__button__style">Consulter le site internet</a>
+            </div>
+        </div>
+      </section>
+
+
+    </main>
+    <footer class="footer" id="footer">
+      <h3>Merci de votre visite !</h3>
+      <div class="footer__info">
+        <div>
+          <h4><span class="footer__info__color">Tel :</span> 07.81.60.00.69</h4>
+          <h4><span class="footer__info__color">Email :</span> clement.potteau@gmail.com</h4>
+          <h4><a href="https://www.linkedin.com/in/cl%C3%A9ment-potteau-757034221/">LinkedIn</a></h4>
+        </div>
+        <div class="footer__CV">
+          <div>
+            <h2 class="footer__CV__title">Clément Potteau</h2>
+          </div>
+          <div>
+            <h4 class="footer__CV__exp">Graphiste • Vidéaste • Webdesigner</h4>
+          </div>
+          <div>
+            <a href="https://acrobat.adobe.com/id/urn:aaid:sc:EU:30326345-0ee0-42d6-8c72-57d4d81a4f41" class="footer__CV__button">Voir mon CV</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <img src="../dist/images/logoNB.png" alt="logoNB">
+        <p>© 2025 Clém Potteau</p>
+      </div>
+    </footer>
+    <script src="../dist/scripts/web.js"></script>
+    <script src="../dist/scripts/burger.js"></script>
+  </body>
+</html>

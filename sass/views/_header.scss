@@ -1,0 +1,109 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 50px 200px 50px;
+    
+    @media screen and (max-width: 1024px) {
+        margin: 25px 50px 100px 50px;
+    }
+
+    
+
+    &__logo{
+        &__png{
+            display: block;
+            margin: 0 auto;
+            width: auto;
+            @media screen and (max-width: 1024px) {
+                width: 50%;
+            }
+
+            @media screen and (max-width: 430px) {
+                width: 40%;
+            }
+        }
+        &__txt{
+            margin:0;
+            @media screen and (max-width: 430px) {
+                width: 90px;
+            }
+        }
+    }
+
+    &__nav{
+        display: flex;
+        gap: 85px;
+        padding: 0px;
+        
+        @media screen and (max-width: 1024px) {
+            gap: 60px;
+        }
+
+        @media screen and (max-width: 430px) {
+            display: none;  /* Masquer les éléments de navigation par défaut sur mobile */
+        }
+    }
+
+    /* Menu burger - affichage sur mobile */
+    .burger-btn {
+        display: none;
+        @media screen and (max-width: 430px) {
+            display: block;
+            cursor: pointer;
+        }
+    }
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: #5d5d5a;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #ffa45c;
+}
+
+.sidenav.active {
+    width: 250px;  /* Lorsque le menu est ouvert */
+}
+
+.sidenav .close {
+    font-size: 36px;
+    color: #fff;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+/* Style burger icon */
+.burger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 25px;
+}
+
+.burger-icon span {
+    background-color: #333;
+    height: 5px;
+    width: 100%;
+}

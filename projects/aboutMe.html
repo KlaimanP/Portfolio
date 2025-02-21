@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio - Clément Potteau</title>
+    <meta name="description" content="description de ma page">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.typekit.net/neb1rwd.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../dist/css/main.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+          <a href="../index.html">
+              <img src="../dist/images/logoC.png" alt="logoC" class="header__logo__png">
+              <h4 class="header__logo__txt"> Clé Potteau</h4>
+          </a>
+      </div>
+      <div>
+          <nav>
+              <ul class="header__nav">
+                  <li><a href="../projects/aboutMe.html" class="float"><h4>Qui suis-je</h4></a></li>
+                  <li><a href="../index.html" class="float"><h4>Projet</h4></a></li>
+                  <li><a href="#footer" class="float"><h4>Contact</h4></a></li>
+              </ul>
+          </nav>
+      </div>
+  
+      <!-- Sidenav pour mobile -->
+      <div id="mySidenav" class="sidenav">
+          <a id="closeBtn" href="#" class="close">×</a>
+          <ul>
+              <li><a href="../projects/aboutMe.html">Qui suis-je</a></li>
+              <li><a href="../index.html">Projet</a></li>
+              <li><a href="#footer">Contact</a></li>
+          </ul>
+      </div>
+      
+      <!-- Menu burger visible sur mobile -->
+      <a href="#" id="openBtn" class="burger-btn">
+          <span class="burger-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+          </span>
+      </a>
+  </header>
+  
+    <main>
+      <section class="hero">
+        <div class="hero__txt">
+          <h3>Bonjour je suis Clément et  je suis </h3>
+          <h1><span id="changing-text"></span><span class="cursor">|</span></h1>
+        </div>
+      </section>
+
+      <section class="sectionOne">
+        <div class="aboutMe">
+          <div class="aboutMe__img">
+            <img src="../dist/images/aboutMe/photo_perso.jpg" alt="photo de profil" class="pp">
+          </div>
+          <div class="aboutMe__txt">
+            <div  class="aboutMe__txt__title">
+            <h2>Qui suis-je ?</h2>
+            </div>
+            <div class="aboutMe__txt__info">
+              <h4> Clément Potteau</h4>
+              <p>Né à Reims en 2001, j’ai obtenu mon baccalauréat avant de poursuivre des études en audiovisuel. J’ai effectué un stage chez Désialis en tant que commercial, où j’ai contribué à la conception de plaquettes commerciales et réalisé une vidéo promotionnelle présentée lors de la foire de Châlons-en-Champagne en 2022-2023.</p>
+              <p>Fin 2023 - début 2024, j’ai suivi une formation en Webdesign UI en alternance au Foyer Rémois en tant qu’assistant communication. Dans ce cadre, j’ai mené divers projets, notamment des créations graphiques, des réalisations vidéo ainsi que la production et la diffusion de contenus sur les réseaux sociaux.</p>
+            </div>
+            <div>
+              <a href="https://acrobat.adobe.com/id/urn:aaid:sc:EU:30326345-0ee0-42d6-8c72-57d4d81a4f41" class="aboutMe__txt__button">Voir mon CV</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hardSkill">
+        <h2>Logiciels et compétences</h2>
+        <div class="hardSkill__liste">
+          <div>
+            <div class="hardSkill__liste__nom">
+              <img src="../dist/images/aboutMe/AI.png">
+              <h4>Illustrator</h4>
+            </div>
+            <div class="hardSkill__liste__nom">
+              <img src="../dist/images/aboutMe/ID.png">
+              <h4>Indesign</h4>
+            </div>
+            <div class="hardSkill__liste__nom">
+              <img src="../dist/images/aboutMe/PS.png">
+              <h4>Photoshop</h4>
+            </div>
+          </div>
+          <div>
+            <div class="hardSkill__liste__nom">
+              <img src="../dist/images/aboutMe/PR.png">
+              <h4>Premier Pro</h4>
+            </div>
+            <div class="hardSkill__liste__nom">
+              <img src="../dist/images/aboutMe/AE.png">
+              <h4>After Effect</h4>
+            </div>
+            <div class="hardSkill__liste__nom">
+              <img src="../dist/images/aboutMe/DJI.png">
+              <h4>DJI Drone</h4>
+            </div>
+          </div>
+          <div>
+            <div class="hardSkill__liste__nom">
+              <img src="../dist/images/aboutMe/Figma.png">
+              <h4>Figma</h4>
+            </div>
+            <div class="hardSkill__liste__nom">
+              <img src="../dist/images/aboutMe/VisualC.png">
+              <h4>Visual Studio Code</h4>
+            </div>
+            <div class="hardSkill__liste__nom">
+              <img src="../dist/images/aboutMe/WordPress.png">
+              <h4>WordPress</h4>
+            </div>
+          </div>
+          <div>
+            <div class="hardSkill__liste__nom">
+              <img src="../dist/images/aboutMe/Elementor.png">
+              <h4>Elementor</h4>
+            </div>
+            <div class="hardSkill__liste__nom">
+              <img src="../dist/images/aboutMe/HtmlCSS.png">
+              <h4>Html / CSS</h4>
+            </div>
+            <div class="hardSkill__liste__nom">
+              <img src="../dist/images/aboutMe/JS.png">
+              <h4>JavaScript</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contenaire">
+        <div class="softSkill">
+          <h2>Centres d'intérêt</h2>
+          <div class="softSkill__block">
+            <div class="softSkill__block__txt">
+              <h3>Explorateur multimédia</h3>
+              <p>Curieux et passionné, je plonge dans les jeux vidéo, les mangas, les webtoons, les films, les séries et les animés, explorant des mondes fascinants et des histoires captivantes qui nourrissent mon imagination.</p>
+            </div>
+            <div class="softSkill__block__txt">
+              <h3>Spectateur passionné</h3>
+              <p>Ancien joueur de rugby, mais toujours rugbyman dans l’âme, je suis aujourd’hui passionné de rugby et de volley, appréciant l’énergie, la stratégie, et l’esprit d’équipe de ces sports.</p>
+            </div>
+          </div>
+        </div>
+        <img src="../dist/images/aboutMe/context.png" class="bandeau">
+      </section>
+
+    </main>
+    <footer class="footer" id="footer">
+      <h3>Merci de votre visite !</h3>
+      <div class="footer__info">
+        <div>
+          <h4><span class="footer__info__color">Tel :</span> 07.81.60.00.69</h4>
+          <h4><span class="footer__info__color">Email :</span> clement.potteau@gmail.com</h4>
+          <h4><a href="https://www.linkedin.com/in/cl%C3%A9ment-potteau-757034221/">LinkedIn</a></h4>
+        </div>
+        <div class="footer__CV">
+          <div>
+            <h2 class="footer__CV__title">Clément Potteau</h2>
+          </div>
+          <div>
+            <h4 class="footer__CV__exp">Graphiste • Vidéaste • Webdesigner</h4>
+          </div>
+          <div>
+            <a href="https://acrobat.adobe.com/id/urn:aaid:sc:EU:30326345-0ee0-42d6-8c72-57d4d81a4f41" class="footer__CV__button">Voir mon CV</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <img src="../dist/images/logoNB.png" alt="logoNB">
+        <p>© 2025 Clém Potteau</p>
+      </div>
+    </footer>
+    <script src="../dist/scripts/aboutMe.js"></script>
+    <script src="../dist/scripts/burger.js"></script>
+  </body>
+</html>

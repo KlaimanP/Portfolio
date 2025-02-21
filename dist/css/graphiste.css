@@ -1,0 +1,34 @@
+.graphisme {
+  background-color: #5d5d5a;
+}
+.graphisme__container {
+  padding: 50px 25px 50px 25px;
+}
+.graphisme__container__g1 {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.graphisme__container__g1 img {
+  width: 890px;
+  height: 960px;
+  object-fit: cover;
+}
+.graphisme__container__g2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.graphisme__container__g2 img {
+  width: 1850px;
+  height: 966px;
+  object-fit: cover;
+}
+.graphisme__container__g3 {
+  display: flex;
+  justify-content: space-between;
+}
+.graphisme__container__g3 img {
+  width: 550px;
+  height: 343px;
+  object-fit: cover;
+}

@@ -1,0 +1,71 @@
+.partieOne {
+    background-color: #5d5d5a;
+    padding: 80px 170px;
+
+    @media screen and (max-width: 1024px) {
+        padding: 40px 85px;
+    }
+
+    @media screen and (max-width: 430px) {
+            padding:40px;
+    }
+}
+
+
+
+.about{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap:165px;
+    align-items: center;
+    @media screen and (max-width: 1024px) {
+        gap:80px;
+      }
+      
+    @media screen and (max-width: 430px) {
+        flex-direction: column;
+        gap:20px;
+    }
+    
+
+    &__img img{
+        width: 100%
+    }
+
+    &__txt{
+
+        &__title{
+            color: #ffcdab;
+        }
+
+        &__info{
+            margin-top:25px;
+            margin-bottom: 50px;
+            color: #fff;
+
+            @media screen and (max-width: 430px) {
+                margin-bottom: 25px;
+                margin-top:15px;
+            }
+            
+        }
+
+        &__button{
+            background-color: #ffcdab;
+            padding: 15px 50px 15px 50px;
+            border-radius: 5px;
+            color: #5d5d5a;
+            transition: 0.5s;
+        }
+
+        &__button:hover{
+            color: #ffcdab;
+            background-color: #5d5d5a;
+            border : solid;
+            border-width: 1px;
+            border-color: #ffcdab;
+        }
+    }
+
+}
