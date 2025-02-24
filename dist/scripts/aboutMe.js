@@ -1,12 +1,12 @@
-const words = ["Créatif.", "Organisé.", "Flexible."];
+const words = ["Créatif.", "Organisé.", "Flexible.", "Attentif."];
 let index = 0;
 let letterIndex = 0;
 let currentWord = "";
 let isDeleting = false;
 const changingText = document.getElementById("changing-text");
 const typingSpeed = 100;
-const deletingSpeed = 30;
-const delayBetweenWords = 1000;
+const deletingSpeed = 50;
+const delayBetweenWords = 1500;
 
 function typeEffect() {
     currentWord = words[index];
