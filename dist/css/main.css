@@ -791,7 +791,7 @@ img {
   .graphisme__g1__minia .overlayContent .separator, .graphisme__g2__minia .overlayContent .separator, .graphisme__g3__minia .overlayContent .separator {
     width: 25px;
     height: 1px;
-    margin-bottom: 5px;
+    margin: 5px;
   }
 }
 .graphisme__g1__minia .overlayContent .text, .graphisme__g2__minia .overlayContent .text, .graphisme__g3__minia .overlayContent .text {
@@ -1017,7 +1017,7 @@ img {
   .container__video__minia .overlayVideo .overlayContent .separator {
     width: 25px;
     height: 1px;
-    margin-bottom: 5px;
+    margin: 5px;
   }
 }
 .container__video__minia .overlayVideo .overlayContent .text {
@@ -1198,7 +1198,7 @@ img {
   .foyerRemois__videoG1__minia .overlayVideo .overlayContent .separator {
     width: 25px;
     height: 1px;
-    margin-bottom: 5px;
+    margin: 5px;
   }
 }
 .foyerRemois__videoG1__minia .overlayVideo .overlayContent .text {
@@ -1321,7 +1321,7 @@ img {
   .foyerRemois__videoG2__minia .overlayVideo .overlayContent .separator {
     width: 25px;
     height: 1px;
-    margin-bottom: 5px;
+    margin: 5px;
   }
 }
 .foyerRemois__videoG2__minia .overlayVideo .overlayContent .text {
@@ -1443,7 +1443,7 @@ img {
   .foyerRemois__videoG3__minia .overlayVideo .overlayContent .separator {
     width: 25px;
     height: 1px;
-    margin-bottom: 5px;
+    margin: 5px;
   }
 }
 .foyerRemois__videoG3__minia .overlayVideo .overlayContent .text {
@@ -1627,7 +1627,7 @@ img {
   .limusyo__videoG1__minia .overlayVideo .overlayContent .separator {
     width: 25px;
     height: 1px;
-    margin-bottom: 5px;
+    margin: 5px;
   }
 }
 .limusyo__videoG1__minia .overlayVideo .overlayContent .text {
@@ -1750,7 +1750,7 @@ img {
   .limusyo__videoG2__minia .overlayVideo .overlayContent .separator {
     width: 25px;
     height: 1px;
-    margin-bottom: 5px;
+    margin: 5px;
   }
 }
 .limusyo__videoG2__minia .overlayVideo .overlayContent .text {
