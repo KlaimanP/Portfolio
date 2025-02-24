@@ -503,7 +503,7 @@ img {
 
 .video {
   text-align: center;
-  margin: 100px;
+  margin: 100px 300px;
 }
 @media screen and (max-width: 430px) {
   .video {
