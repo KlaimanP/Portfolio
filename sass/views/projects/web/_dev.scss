@@ -14,6 +14,14 @@
         width: 100%;
         margin: 0 auto;
         padding-top: 50px;
+
+        @media screen and (max-width: 1024px) {
+
+        }
+    
+        @media screen and (max-width: 430px) {
+            padding-top: 25px;
+        }
     }
 }
 
@@ -27,6 +35,7 @@
 
     @media screen and (max-width: 430px) {
         padding: 50px;
+        padding: 50px 10px;
     }
 
 
@@ -36,7 +45,6 @@
         gap: 50px;
 
         @media screen and (max-width: 1024px) {
-            justify-content: space-between;
             gap: 0px;
         }
     
@@ -50,12 +58,13 @@
             object-fit: cover;
 
             @media screen and (max-width: 1024px) {
-                width: 420px
+                width: 420px;
+                height: 800px;
             }
         
             @media screen and (max-width: 430px) {
                 width: 150px;
-                height: 800px;
+                height: 400px;
             }
         }
     }
