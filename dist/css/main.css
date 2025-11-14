@@ -732,6 +732,7 @@ img {
   cursor: pointer;
   overflow: hidden;
   border-radius: 15px;
+  margin-top: 50px;
 }
 .graphisme__g1__minia img, .graphisme__g2__minia img, .graphisme__g3__minia img {
   width: 100%;
